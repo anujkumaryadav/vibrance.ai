@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from './assets/logo-dark.png'
+import Aboutus from './components/core/Aboutus'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -139,6 +140,7 @@ export default function Home() {
       </div>
     </div>
     <Internship/>
+    <Aboutus/>
     </>
   )
 }
